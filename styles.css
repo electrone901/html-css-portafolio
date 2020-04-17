@@ -1,6 +1,11 @@
+/* Master styles */
+
 body {
     margin: 0px;
 }
+
+
+/* nav styles  */
 
 .nav-wrapper {
     display: flex;
@@ -35,5 +40,42 @@ body {
 }
 
 .nav-link-wrapper a:hover {
-    border-bottom: black;
+    color: black;
+}
+
+
+/* portfolio styles  */
+
+.portfolio-items-wrapper {
+    display: grid;
+    /* we will have 3 cols 1fr & will give a full column to each one  */
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-item-wrapper {
+    /* allow us to have more flexibility on how we position each item inside them  */
+    position: relative;
+}
+
+.portfolio-img-background {
+    height: 350px;
+    width: 100%;
+    /* cover helps to display all images with the same size even though they are not the same  */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-text-wrapper {
+    /* postion relative is require to have position absolute because is like we are forcing it, in order to do that it has to be in a parent that is  relative  */
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
 }

@@ -1,4 +1,4 @@
-This is an HTML and CSS project to practice flexbox, CSS, CSS Grid
+This is a simple portfolio website built with HTML5 and CSS using flexbox, CSS, CSS Grid, and animations.
 
 ## Table of Content
 
