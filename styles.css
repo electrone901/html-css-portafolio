@@ -1,5 +1,5 @@
 body {
-    margin: opx;
+    margin: 0px;
 }
 
 .nav-wrapper {
@@ -35,5 +35,5 @@ body {
 }
 
 .nav-link-wrapper a:hover {
-    black;
+    border-bottom: black;
 }
