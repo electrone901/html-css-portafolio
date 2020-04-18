@@ -5,10 +5,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <h1>About me</h1>
+
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper">
+                    <a href="index.html">Home</a>
+                </div>
+
+                <div class="nav-link-wrapper">
+                    <a href="about.html">About</a>
+                </div>
+            </div>
+
+
+            <div class="right-side">
+                <div class="brand">
+                    <div>Luis Carbajal</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-wrapper">
+            <div class="two-column-wrapper">
+                <div class="profile-image-wrapper">
+                    <img src="images/profile.jpg" alt="personal image">
+                </div>
+                <div class="profile-content-wrapper">
+                    <h1>Hi, thank for vising my web site!</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero qui, sapiente sunt ipsa doloremque quibusdam tempore iure maiores est ipsam at quaerat sed impedit magnam provident totam fugit tenetur in. Lorem, ipsum dolor sit amet
+                        consectetur adipisicing elit. Vero qui, sapiente sunt ipsa doloremque quibusdam tempore iure maiores est ipsam at quaerat sed impedit magnam provident totam fugit tenetur in.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero qui, sapiente sunt ipsa doloremque quibusdam tempore iure maiores est ipsam at quaerat sed impedit magnam provident totam fugit tenetur in. Lorem, ipsum dolor sit amet
+                        consectetur adipisicing elit. Vero qui, sapiente sunt ipsa doloremque quibusdam tempore iure maiores est ipsam at quaerat sed impedit magnam provident totam fugit tenetur in.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
 </body>
+<script>
+    const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper');
+    portfolioItems.forEach(portfolioItem => {
+
+        portfolioItem.addEventListener('mouseover', () => {
+            portfolioItem.childNodes[1].classList.add('img-darken')
+        })
+
+        portfolioItem.addEventListener('mouseout', () => {
+            portfolioItem.childNodes[1].classList.revome('img-darken')
+        })
+    })
+</script>
 
 </html>

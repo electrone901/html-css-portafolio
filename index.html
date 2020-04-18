@@ -39,7 +39,7 @@
                     <div class="img-text-wrapper">
 
                         <div class="logo-wrapper">
-                            <img src="/images/logos/quip.png" alt="logo">
+                            <img src="/images/logos/crondose.png" alt="logo">
                         </div>
 
                         <div class="subtitle">
@@ -63,7 +63,7 @@
                     <div class="portfolio-img-background" style="background-image: url(images/portfolio3.jpg);"></div>
                     <div class="img-text-wrapper">
                         <div class="logo-wrapper">
-                            <img src="/images/logos/quip.png" alt="logo">
+                            <img src="/images/logos/dailysmarty.png" alt="logo">
                         </div>
                         <div class="subtitle">
                             I built the Quip Ecommers platform, place number 10 in NYC.
@@ -74,7 +74,7 @@
                     <div class="portfolio-img-background" style="background-image: url(images/portfolio4.jpg);"></div>
                     <div class="img-text-wrapper">
                         <div class="logo-wrapper">
-                            <img src="/images/logos/quip.png" alt="logo">
+                            <img src="/images/logos/dashtrack.png" alt="logo">
                         </div>
                         <div class="subtitle">
                             I built the Quip Ecommers platform, place number 10 in NYC.
@@ -85,7 +85,7 @@
                     <div class="portfolio-img-background" style="background-image: url(images/portfolio5.jpg);"></div>
                     <div class="img-text-wrapper">
                         <div class="logo-wrapper">
-                            <img src="/images/logos/quip.png" alt="logo">
+                            <img src="/images/logos/devcamp.png" alt="logo">
                         </div>
                         <div class="subtitle">
                             I built the Quip Ecommers platform, place number 10 in NYC.
@@ -96,7 +96,7 @@
                     <div class="portfolio-img-background" style="background-image: url(images/portfolio6.jpg);"></div>
                     <div class="img-text-wrapper">
                         <div class="logo-wrapper">
-                            <img src="/images/logos/quip.png" alt="logo">
+                            <img src="/images/logos/edutechional.png" alt="logo">
                         </div>
                         <div class="subtitle">
                             I built the Quip Ecommers platform, place number 10 in NYC.
@@ -107,7 +107,7 @@
                     <div class="portfolio-img-background" style="background-image: url(images/portfolio7.jpg);"></div>
                     <div class="img-text-wrapper">
                         <div class="logo-wrapper">
-                            <img src="/images/logos/quip.png" alt="logo">
+                            <img src="/images/logos/eventbrite.png" alt="logo">
                         </div>
                         <div class="subtitle">
                             I built the Quip Ecommers platform, place number 10 in NYC.
@@ -118,7 +118,7 @@
                     <div class="portfolio-img-background" style="background-image: url(images/portfolio8.jpg);"></div>
                     <div class="img-text-wrapper">
                         <div class="logo-wrapper">
-                            <img src="/images/logos/quip.png" alt="logo">
+                            <img src="/images/logos/ministry-safe.png" alt="logo">
                         </div>
                         <div class="subtitle">
                             I built the Quip Ecommers platform, place number 10 in NYC.
@@ -129,7 +129,7 @@
                     <div class="portfolio-img-background" style="background-image: url(images/portfolio9.jpg);"></div>
                     <div class="img-text-wrapper">
                         <div class="logo-wrapper">
-                            <img src="/images/logos/quip.png" alt="logo">
+                            <img src="/images/logos/open-devos.png" alt="logo">
                         </div>
                         <div class="subtitle">
                             I built the Quip Ecommers platform, place number 10 in NYC.
@@ -140,7 +140,7 @@
                     <div class="portfolio-img-background" style="background-image: url(images/portfolio10.jpg);"></div>
                     <div class="img-text-wrapper">
                         <div class="logo-wrapper">
-                            <img src="/images/logos/quip.png" alt="logo">
+                            <img src="/images/logos/shop-hacker.png" alt="logo">
                         </div>
                         <div class="subtitle">
                             I built the Quip Ecommers platform, place number 10 in NYC.
@@ -151,7 +151,7 @@
                     <div class="portfolio-img-background" style="background-image: url(images/portfolio11.jpg);"></div>
                     <div class="img-text-wrapper">
                         <div class="logo-wrapper">
-                            <img src="/images/logos/quip.png" alt="logo">
+                            <img src="/images/logos/dashtrack.png" alt="logo">
                         </div>
                         <div class="subtitle">
                             I built the Quip Ecommers platform, place number 10 in NYC.
@@ -181,5 +181,20 @@
 
 
 </body>
+<script>
+    // dynamically adding & removing darken-class  using js
+    const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper');
+    portfolioItems.forEach(portfolioItem => {
+
+        portfolioItem.addEventListener('mouseover', () => {
+            portfolioItem.childNodes[1].classList.add('img-darken')
+        })
+
+        portfolioItem.addEventListener('mouseout', () => {
+            portfolioItem.childNodes[1].classList.remove('img-darken')
+
+        })
+    })
+</script>
 
 </html>

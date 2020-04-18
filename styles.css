@@ -79,3 +79,48 @@ body {
     padding-left: 100px;
     padding-right: 100px;
 }
+
+.logo-wrapper img {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+
+/* dynamic add & remove this class on hover  */
+
+.img-text-wrapper .subtitle {
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+}
+
+.img-text-wrapper:hover .subtitle {
+    font-weight: 600;
+    color: lightseagreen;
+}
+
+.img-darken {
+    transition: 1s;
+    filter: brightness(10%);
+}
+
+
+/* about page  */
+
+.two-column-wrapper {
+    /* puts to columns inside a div */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile-image-wrapper img {
+    width: 100%;
+}
+
+.profile-content-wrapper {
+    padding: 30px;
+}
+
+.profile-content-wrapper h1 {
+    color: lightseagreen;
+}
