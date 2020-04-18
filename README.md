@@ -10,4 +10,6 @@ This is a simple portfolio website built with HTML5 and CSS using flexbox, CSS, 
 
 [dynamically add-remove class with JS](https://github.com/electrone901/html-css-portafolio/commit/ecc11921f5996fb62f28f934a15bb8b205e16b39)
 
-[Add Google fonts]()
+[Add Google fonts](https://github.com/electrone901/html-css-portafolio/commit/3d04b552a4512bc972a537014fc858c707fd4ea6)
+
+[Add Nav active class]()
