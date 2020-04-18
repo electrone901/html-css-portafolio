@@ -16,6 +16,6 @@ This is a simple portfolio website built with HTML5 and CSS using flexbox, CSS, 
 
 [Add images to Readme.md](images/20%/home.png)
 
-Project
-![](images/20%/home1.png)
-![](images/20%/about1.png)
+Project images
+<img src="images/20%/home1.png" width="100">
+<img src="images/20%/about1.png" width="100">
