@@ -18,5 +18,5 @@ This is a simple portfolio website built with HTML5 and CSS using flexbox, CSS, 
 
 ### Project images
 
-<img src="/images/home1.png" width="50%">
-<img src="/images/about1.png" width="50%">
+<img src="/images/home1.png" width="90%">
+<img src="/images/about1.png" width="90%">
