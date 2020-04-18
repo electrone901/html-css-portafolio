@@ -6,4 +6,6 @@ This is a simple portfolio website built with HTML5 and CSS using flexbox, CSS, 
 
 [Add portfolio section using relative container and absolute children](https://github.com/electrone901/html-css-portafolio/commit/6b81b7a1a7b57855b3ff64b7f2d5e1e64f3f7bbd)
 
-[Use grid template columns to create portfolio layout]()
+[Use grid template columns to create portfolio layout](https://github.com/electrone901/html-css-portafolio/commit/ecc11921f5996fb62f28f934a15bb8b205e16b39)
+
+[dynamically add-remove class with JS](https://github.com/electrone901/html-css-portafolio/commit/ecc11921f5996fb62f28f934a15bb8b205e16b39)
