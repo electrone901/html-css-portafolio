@@ -12,4 +12,10 @@ This is a simple portfolio website built with HTML5 and CSS using flexbox, CSS, 
 
 [Add Google fonts](https://github.com/electrone901/html-css-portafolio/commit/3d04b552a4512bc972a537014fc858c707fd4ea6)
 
-[Add Nav active class]()
+[Add Nav active class](https://github.com/electrone901/html-css-portafolio/commit/e137ba4f6d4c07ab719e6efd05b1791568ca6a11)
+
+[Add images to Readme.md](images/20%/home.png)
+
+Project
+![](images/20%/home1.png)
+![](images/20%/about1.png)
