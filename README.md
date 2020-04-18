@@ -9,3 +9,5 @@ This is a simple portfolio website built with HTML5 and CSS using flexbox, CSS, 
 [Use grid template columns to create portfolio layout](https://github.com/electrone901/html-css-portafolio/commit/ecc11921f5996fb62f28f934a15bb8b205e16b39)
 
 [dynamically add-remove class with JS](https://github.com/electrone901/html-css-portafolio/commit/ecc11921f5996fb62f28f934a15bb8b205e16b39)
+
+[Add Google fonts]()
