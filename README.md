@@ -18,6 +18,9 @@ This is a simple portfolio website built with HTML5 and CSS using flexbox, CSS, 
 
 [Add images to Readme.md](https://github.com/electrone901/html-css-portafolio/commit/8c0b44c73ebbc30c70e059eb23cd3f51b3a1dae5)
 
+[universal reset,borders and padding](https://github.com/electrone901/html-css-portafolio/commit/78d576e946c539964e6f38675afbb610730cdfad)
+[add list hover, active, visited and image]()
+
 ### Project images
 
 <img src="/images/home1.png" width="90%">
