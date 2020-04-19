@@ -159,3 +159,17 @@ a:visited {
     padding: 15px;
     box-sizing: border-box;
 }
+
+.p-box {
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative;
+}
+
+.p-box h1 {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}

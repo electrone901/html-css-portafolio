@@ -24,6 +24,8 @@ This is a simple portfolio website built with HTML5 and CSS using flexbox, CSS, 
 
 [displaying divs horizontally (float: must do clearfix)](https://github.com/electrone901/html-css-portafolio/commit/6c2cf1ddd7e68ba9fa88daf396c76edf96422fdd)
 
+[position relative & absolute (parent= rel, child=abs)]()
+
 ### Project images
 
 <img src="/images/home1.png" width="90%">
