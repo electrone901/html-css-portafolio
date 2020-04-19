@@ -22,7 +22,7 @@ This is a simple portfolio website built with HTML5 and CSS using flexbox, CSS, 
 
 [add list hover, active, visited and image](https://github.com/electrone901/html-css-portafolio/commit/78d576e946c539964e6f38675afbb610730cdfad)
 
-[displaying divs horizontally (float: must do clearfix)]()
+[displaying divs horizontally (float: must do clearfix)](https://github.com/electrone901/html-css-portafolio/commit/6c2cf1ddd7e68ba9fa88daf396c76edf96422fdd)
 
 ### Project images
 
