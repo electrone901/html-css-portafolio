@@ -28,7 +28,9 @@ This is a simple portfolio website built with HTML5 and CSS using flexbox, CSS, 
 
 [position Fixed (good for navs/social media)](https://github.com/electrone901/html-css-portafolio/commit/f3e9bc97d8899811bb94ad4e06057e2c795d4d6b)
 
-[pseudo class]()
+[pseudo class](https://github.com/electrone901/html-css-portafolio/commit/76eedc97e984ab0f8c4a7876be89983c6e808c00)
+
+[simple responsive website from scrash]()
 
 ### Project images
 
